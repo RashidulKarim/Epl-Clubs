@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epl Clubs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-200">
+    <header class="header" id='header'>
+        <h1 class="text-blue-500 text-4xl mt-4 font-bold ">CLUBS OF ENGLISH PREMIER LEAGUE</h1>
+        <p>No.1 Leque in the World.</p>
+    </header>
+    <section id='errorSection'>
+        <div class="center">
+            <p class='font-bold text-4xl text-red-500' id='error'></p>
+        </div>
+    </section>
+    <section id='lodding' class="hidden">
+        <div class="center">
+            <img src="/Gear-0.2s-200px.svg" alt="">
+        </div>
+    </section>
+    <main id="main">
+        <section>
+            <div id="teamsContainer"
+                class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center">
+
+            </div>
+        </section>
+        <section>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-body" id='modal-body'>
+                        <h4 id="error"></h4>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://kit.fontawesome.com/c5f02a4ef6.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
